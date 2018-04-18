@@ -1,0 +1,15 @@
+$mainMargin:10px;
+$mainWidth:1100px;
+$colorBlack:#333;
+$fontSize:30px;
+$fontFamily:'Poppins', sans-serif;
+/*$fontColor:#333*/
+body{
+	font-size: $fontSize;
+	font-family: $fontFamily;
+	color: $colorBlack;
+	line-height: 26px;
+}
+
+@import 'personal';
+@import 'grid';

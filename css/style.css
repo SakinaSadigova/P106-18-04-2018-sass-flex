@@ -1,0 +1,162 @@
+/*$fontColor:#333*/
+body {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  line-height: 26px; }
+
+#ourTeam {
+  height: 875px; }
+  #ourTeam .row {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; }
+    #ourTeam .row:last-child {
+      text-align: left;
+      height: 290px; }
+      #ourTeam .row:last-child > div {
+        height: 100%;
+        overflow: hidden; }
+    #ourTeam .row h3 {
+      text-transform: uppercase;
+      font-size: 1em;
+      font-weight: 600; }
+    #ourTeam .row .bottomLine {
+      display: inline-block;
+      width: 40px;
+      height: 1px;
+      background: #333; }
+    #ourTeam .row .teamItem {
+      display: inline-block;
+      margin-right: 10px;
+      width: calc(100%/5 - 20px);
+      height: 235px;
+      background: green; }
+      #ourTeam .row .teamItem img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    #ourTeam .row .col-3 {
+      height: auto; }
+      #ourTeam .row .col-3 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    #ourTeam .row .col-4 h5 {
+      font-size: .8em; }
+    #ourTeam .row .col-4 p {
+      font-size: .45em;
+      letter-spacing: .5px;
+      /*font-weight: 400;*/ }
+      #ourTeam .row .col-4 p:not(.diff) {
+        padding: 10px 0; }
+      #ourTeam .row .col-4 p .i {
+        color: #F0A9A6;
+        margin: 0 5px; }
+    #ourTeam .row .col-4 .social {
+      margin-top: 10px; }
+      #ourTeam .row .col-4 .social li {
+        display: inline; }
+        #ourTeam .row .col-4 .social li a {
+          font-size: 0.5em;
+          color: white;
+          padding: 7px 8px;
+          background: #333;
+          margin-right: 10px; }
+    #ourTeam .row .col-5 .statistics {
+      height: 290px; }
+      #ourTeam .row .col-5 .statistics li {
+        height: calc(100% / 4 - 35px);
+        margin-bottom: 35px;
+        width: 100%;
+        box-sizing: border-box;
+        /*border-bottom: 5px solid #F9F9F9 green;*/
+        position: relative;
+        /*background: green;*/ }
+        #ourTeam .row .col-5 .statistics li p {
+          font-size: 0.5em;
+          /*margin-bottom: 10px*/ }
+        #ourTeam .row .col-5 .statistics li > div {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 5px; }
+          #ourTeam .row .col-5 .statistics li > div p {
+            position: absolute;
+            padding: 3px;
+            right: 0;
+            top: -32px;
+            background: #333;
+            color: white; }
+        #ourTeam .row .col-5 .statistics li .red {
+          width: 50%;
+          background: red;
+          z-index: 5; }
+        #ourTeam .row .col-5 .statistics li .gray {
+          width: 100%;
+          background: #F9F9F9;
+          z-index: 4; }
+
+.sectionPadding, #ourTeam {
+  padding: 60px 0;
+  box-sizing: border-box; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  height: auto; }
+
+.container-fluid {
+  width: 100%; }
+
+.row {
+  position: relative; }
+
+div[class^="col-"] {
+  float: left;
+  margin: 10px;
+  position: relative; }
+
+.col-1 {
+  width: calc((100%/12)*1 - (2*10px)); }
+
+.col-2 {
+  width: calc((100%/12)*2 - (2*10px)); }
+
+.col-3 {
+  width: calc((100%/12)*3 - (2*10px)); }
+
+.col-4 {
+  width: calc((100%/12)*4 - (2*10px)); }
+
+.col-5 {
+  width: calc((100%/12)*5 - (2*10px)); }
+
+.col-6 {
+  width: calc((100%/12)*6 - (2*10px)); }
+
+.col-7 {
+  width: calc((100%/12)*7 - (2*10px)); }
+
+.col-8 {
+  width: calc((100%/12)*8 - (2*10px)); }
+
+.col-9 {
+  width: calc((100%/12)*9 - (2*10px)); }
+
+.col-10 {
+  width: calc((100%/12)*10 - (2*10px)); }
+
+.col-11 {
+  width: calc((100%/12)*11 - (2*10px)); }
+
+.col-12 {
+  width: calc((100%/12)*12 - (2*10px)); }
+
+/*# sourceMappingURL=style.css.map */
